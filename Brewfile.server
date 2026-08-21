@@ -1,1 +1,29 @@
+# サーバー運用に必要なパッケージ（Mac mini専用）
 
+# リモートアクセス基盤
+cask "tailscale"
+
+# コンテナ管理
+cask "docker"
+
+# AI推論（Apple Siliconとの相性を優先しネイティブ導入）
+cask "ollama"
+
+# 家族向け写真同期
+brew "syncthing"
+
+# バージョン管理
+brew "git"
+
+# システム状態の監視・診断
+brew "htop"
+brew "ncdu"
+
+# ネットワーク診断（トラブルシューティング用）
+brew "mtr"
+brew "nmap"
+
+# データ処理・ファイル操作
+brew "jq"
+brew "wget"
+brew "rsync"
