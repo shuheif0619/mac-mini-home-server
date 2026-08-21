@@ -1,0 +1,59 @@
+# 開発用ツール（マシンを問わず使い回す）
+
+# エディタ・IDE
+cask "cursor"
+cask "visual-studio-code"
+cask "xcode"
+
+# デザイン・プロトタイピング
+cask "figma"
+
+# コミュニケーション・タスク管理
+cask "notion"
+cask "notion-calendar"
+cask "notion-mail"
+cask "slack"
+cask "discord"
+cask "chatwork"
+cask "zoom"
+
+# AI関連
+cask "claude"
+cask "claude-code"
+cask "chatgpt"
+
+# ブラウザ
+cask "google-chrome"
+cask "firefox"
+cask "thebrowsercompany-dia"
+cask "microsoft-edge"
+
+# ユーティリティ
+cask "raycast"
+cask "rectangle"
+cask "alt-tab"
+cask "clipy"
+cask "default-folder-x"
+cask "autoraiseapp"
+cask "keycastr"
+cask "gyazo"
+cask "deepl"
+cask "cyberduck"
+cask "imageoptim"
+cask "optimage"
+cask "setapp"
+
+# 開発関連CLIツール
+brew "git"
+brew "docker"
+brew "pyenv"
+brew "tmux"
+brew "volta"
+brew "mas"
+brew "claude-cmd"
+brew "reattach-to-user-namespace"
+
+# Python開発ツール
+brew "pyenv"
+brew "uv"
+brew "ruff"
