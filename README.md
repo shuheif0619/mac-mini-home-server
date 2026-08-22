@@ -62,7 +62,8 @@ brew install git
 
 ### 3. このリポジトリをクローン
 \`\`\`bash
-git clone https://github.com/あなたのユーザー名/mac-mini-home-server.git
+git clone https://github.com/shuheif0619/mac-mini-home-server.git
+
 cd mac-mini-home-server
 \`\`\`
 
