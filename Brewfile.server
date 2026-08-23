@@ -27,3 +27,6 @@ brew "nmap"
 brew "jq"
 brew "wget"
 brew "rsync"
+
+# スクリーンセーバー用時計
+cask "fliqlo"
