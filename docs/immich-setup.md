@@ -36,3 +36,40 @@ nano .env
 ```
 
 主な変更点：
+
+保存：`Ctrl+O` → Enter → `Ctrl+X`
+
+### 4. アップロード先フォルダを事前に作成
+
+```bash
+mkdir -p "/Volumes/my passport/写真/immich-personal"
+```
+
+### 5. Immichを起動
+
+```bash
+docker compose up -d
+```
+
+> **注意**：コマンドは `docker compose`（スペース区切り）。`docker-compose`（ハイフン）は非推奨・エラーの原因になることがある。
+
+### 6. 起動ログの確認
+
+```bash
+docker compose logs -f
+```
+
+（`Ctrl+C` で確認画面を終了）
+
+### 7. ブラウザでアクセス・初期セットアップ
+
+- Mac mini本体から：`http://localhost:2283`
+- 別端末から（Tailscale経由）：`http://100.92.140.104:2283`
+
+初回アクセス時に表示される登録画面で作成したアカウントが管理者になる。
+
+### 8. スマートフォンに公式アプリを導入
+
+- App StoreでImmichアプリをインストール
+- サーバーURLとして `http://100.92.140.104:2283` を指定（Tailscale経由）し、作成したアカウントでログイン
+- バックグラウンド自動アップロードを有効化
